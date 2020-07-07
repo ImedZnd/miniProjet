@@ -1,0 +1,106 @@
+.menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 0 solid rgba(0, 0, 0, .125);
+    box-shadow: 0 0 2px 0 rgba(22, 26, 33, .1), 0 2px 4px 0 rgba(22, 26, 33, .1);
+    border-radius: 3px;
+    text-align: left;
+}
+
+aside {
+    display: block;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+.options {
+    padding-bottom: .3125rem;
+}
+
+.zicon {
+    font-size: 25px;
+    pointer-events: 'none'
+}
+
+.ztext {
+    pointer-events: 'inherit' !important;
+}
+
+a>* {
+    pointer-events: none;
+}
+
+.profile-div {
+    background-color: rgb(139, 2, 139);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.name {
+    padding-top: 0.375rem;
+
+}
+
+.email {
+    padding-top: 0.375rem;
+    font-size: 12px;
+}
+
+.options li a {
+    display: block;
+    padding: .625rem 1.25rem;
+    border-right: 5px solid transparent;
+    color: #000;
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+}
+
+.non-active-link {
+    background-color: white;
+    color: black
+}
+
+.active-link {
+    background-color: rgb(168, 74, 142);
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 219, 156)
+}
+
+
+
+
+
+.list-inline,
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

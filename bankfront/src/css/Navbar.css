@@ -1,0 +1,19 @@
+.navbar {
+    background-color: rgb(108, 99, 255) !important;
+}
+
+.logo {
+    margin-left: 250px;
+}
+
+.right-nav {
+    margin-right: 250px;
+}
+
+
+.login {
+
+
+    margin: 0 15px !important;
+    padding: 10px 25px !important;
+}
